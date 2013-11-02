@@ -5,19 +5,19 @@
   </url>
     <priority>0.7</priority>
   <url>
-    <loc>http://www.hitseeker.info/science</loc>
+    <loc>http://www.hitseeker.info/science.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://www.hitseeker.info/arcade</loc>
+    <loc>http://www.hitseeker.info/arcade.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://www.hitseeker.info/contact</loc>
+    <loc>http://www.hitseeker.info/contact.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://www.hitseeker.info/links</loc>
+    <loc>http://www.hitseeker.info/links.html</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
