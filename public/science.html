@@ -30,7 +30,23 @@
           <a href = "links">Other HitSeeker Websites</a>
         </center>
         <!-- END OF HEADER -->
-        <h1>Science of HitSeeker</h1>
+        <h1>Art Science of HitSeeker</h1>
+
+        <h2>Science of HitSeeker</h2>
+        <h3>HITS Algorithm</h3>
+        <p>The <a href = "http://en.wikipedia.org/wiki/HITS_algorithm">HITS Algorithm</a> is the precursor to the famous Google PageRank. The main idea is that--for a given search query--some websites are authorities on the query, and others are hubs that link to the best authorities. (Some are both).</p>
+        <p>Given a query, first use <a href = "http://nlp.stanford.edu/IR-book/"> text-based techniques</a>, and assign each page a hub and authority value. These values start at 1, and are updated incrementally as follows:</p>
+        <ul>
+            <li>hub(page) = sum of authorty values of outgoing links</li>
+            <li>authority(page) = sum of hub values of incoming links</li>
+            <li>normalize hub and authority values to sum to 1</li>
+        </ul>
+        After many such rounds, the scores will begin to converge. This is a great example of <a href = "http://en.wikipedia.org/wiki/Mutual_recursion">mutual recursion</a>.
+        <h3>PageRank Algorithm</h3>
+        PageRank is more complicated, but less prone to exploitation by hitseekers, and better overall. Here's the <a href = "http://en.wikipedia.org/wiki/PageRank">PageRank Wikipedia article</a>.
+
+        <h2>Art of HitSeeker</h2>
+        Hit seeking, a.k.a. search engine optimization is an art. Go <a href = "http://moz.com/beginners-guide-to-seo"> read this SEO book</a>.
 
         <!-- START OF FOOTER -->
         <hr>
